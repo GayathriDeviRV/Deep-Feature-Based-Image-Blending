@@ -43,6 +43,8 @@ This project implements a two-pass neural image blending algorithm that combines
 - PIL (Pillow)
 - imageio
 
+---
+
 ## How It Works
 
 ### Inputs
@@ -81,3 +83,23 @@ To run the blending pipeline, execute the following command:
     --gpu_id 0 \
     --num_steps 1100 \
     --save_video True
+```
+
+### Command-line Arguments
+
+- `--source_file`: Path to the source image.
+- `--mask_file`: Path to the mask image.
+- `--target_file`: Path to the target image.
+- `--output_dir`: Directory to save the outputs.
+- `--ss`: Size of the source image (rescaled width/height).
+- `--ts`: Size of the target image (rescaled width/height).
+- `--x`: Vertical location of the blending center.
+- `--y`: Horizontal location of the blending center.
+- `--gpu_id`: GPU ID to use for acceleration.
+- `--num_steps`: Number of optimization iterations per pass.
+- `--save_video`: Whether to save a video of the blending process (`True` or `False`).
+
+---
+
+## **Output**
+
