@@ -102,4 +102,4 @@ To run the blending pipeline, execute the following command:
 ---
 
 ## **Output**
-
+![Output](output/second_pass_balloon.png)
