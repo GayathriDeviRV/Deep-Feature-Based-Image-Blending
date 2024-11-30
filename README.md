@@ -1,4 +1,4 @@
-# Neural Image Blending with Gradient and Style Loss
+# Deep-Feature-Based-Image-Blending
 
 This project implements a two-pass neural image blending algorithm that combines gradient-based optimization and neural style transfer techniques. The code is designed to seamlessly blend a source object into a target background using a provided mask, while maintaining natural-looking boundaries and textures.
 
