@@ -24,10 +24,7 @@ This project implements a two-pass neural image blending algorithm that combines
    - **Content Loss:** Retains source object details.
    - **Total Variation Loss:** Promotes smoothness in the output.
 
-5. **GPU Acceleration**:
-   - The implementation leverages PyTorch tensors to run computations on a GPU.
-
-6. **Optional Video Output**:
+5. **Optional Video Output**:
    - Saves the blending process as a video for visualization.
 
 ---
